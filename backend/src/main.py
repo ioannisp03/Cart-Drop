@@ -1,11 +1,22 @@
-def main():
-    print("Hello from backend!")
+from fastapi import FastAPI
 
 
-if __name__ == "__main__":
-    main()
+app = FastAPI()
 
-'''
+
+@app.get("/")
+async def example():
+    return {"message": "Hello from fastapi backend"}
+
+
+# def main():
+#     print("Hello from backend!")
+
+
+# if __name__ == "__main__":
+#     main()
+
+"""
  2. Auto Price Tracker & Deal Notifier
 “Track product prices across sites, get notified when they drop.”
 
@@ -37,4 +48,4 @@ Shows automation + scraping + user value
 
 Can be expanded to airlines, hotels, or even crypto later
 
-'''
+"""
