@@ -345,4 +345,6 @@ sketch
 *.tar
 docker-compose.override.yml
 
+### Copilot Instructions
+.github/instructions
 #End
