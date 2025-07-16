@@ -346,5 +346,5 @@ sketch
 docker-compose.override.yml
 
 ### Copilot Instructions
-.github/instructions
+.github/instructions/
 #End
