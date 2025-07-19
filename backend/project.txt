@@ -1,20 +1,6 @@
-from fastapi import FastAPI
 
 
-app = FastAPI()
 
-
-@app.get("/")
-async def example():
-    return {"message": "Hello from fastapi backend"}
-
-
-# def main():
-#     print("Hello from backend!")
-
-
-# if __name__ == "__main__":
-#     main()
 
 """
  2. Auto Price Tracker & Deal Notifier
@@ -49,3 +35,4 @@ Shows automation + scraping + user value
 Can be expanded to airlines, hotels, or even crypto later
 
 """
+# GPT file structure idea:https://chatgpt.com/share/68786351-cc70-8008-8f43-0589d717610d
