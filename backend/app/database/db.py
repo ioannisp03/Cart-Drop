@@ -3,6 +3,7 @@ from sqlalchemy.orm import sessionmaker
 from dotenv import load_dotenv
 import os
 
+
 load_dotenv()
 
 # configure connection to postgre

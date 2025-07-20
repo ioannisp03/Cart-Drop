@@ -348,3 +348,6 @@ docker-compose.override.yml
 ### Copilot Instructions
 .github/instructions/
 #End
+
+### Other
+backend/project.txt
