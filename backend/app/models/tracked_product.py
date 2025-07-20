@@ -1,8 +1,7 @@
 from sqlalchemy import Column, Integer, String, DateTime, ForeignKey, Numeric, Index
-from sqlalchemy.ext.declarative import declarative_base
+from app.database.db import Base
 from sqlalchemy.sql import func
 
-Base = declarative_base()
 
 
 class TrackedProduct(Base):

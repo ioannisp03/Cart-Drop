@@ -1,9 +1,6 @@
 from sqlalchemy import Column, Integer, String, Datetime, Numeric, DateTime, func
-from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import relationship
-
-
-Base = declarative_base()
+from app.database.db import Base
 
 
 class Product(Base):
